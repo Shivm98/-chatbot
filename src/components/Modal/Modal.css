@@ -1,0 +1,23 @@
+.modal {
+  position: absolute;
+  top: -150%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal.active {
+  top: 0;
+}
+
+.modal .close-modal-btn {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}

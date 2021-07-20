@@ -1,0 +1,24 @@
+.header {
+  background-color: #97144d;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header .logo-container {
+  height: 43px;
+}
+
+.header .logo-container img {
+  height: 100%;
+}
+
+.header .header-btn {
+  font-size: 2rem;
+}

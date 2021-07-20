@@ -1,0 +1,48 @@
+.input-container {
+  background-color: #fff;
+  height: 53px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.input-container .menu-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.input-container .menu-toggle-btn img {
+  width: 28px;
+  height: 28px;
+}
+
+.input-container .input-box {
+  padding-left: 0.325em;
+  border: none;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 50px;
+  padding: 10px 15px;
+  outline: none;
+}
+
+.input-container .send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(151, 151, 151);
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
